@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
         - name: showks-aggregator
-          image: cloudnativedaysjp/showks-aggregator:prod-8a61fe6333a0daa7b2f0ffa2f2e72128df3c672e
+          image: cloudnativedaysjp/showks-aggregator:prod-530b36c403dcc614a63bffdde1139b4ddea625cf
           env:
             - name: DOMAIN
               valueFrom:
