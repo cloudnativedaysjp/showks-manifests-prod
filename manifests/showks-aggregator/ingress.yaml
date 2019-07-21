@@ -39,7 +39,7 @@ spec:
       - aggregator.showks.cloudnativedays.jp
       secretName: tls-certificate
   rules:
-  - host: aggregator.showks.cloudnativedaysb.jp
+  - host: aggregator.showks.cloudnativedays.jp
     http:
       paths:
       - path: /
