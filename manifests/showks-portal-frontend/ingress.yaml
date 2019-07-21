@@ -12,10 +12,10 @@ metadata:
 spec:
   tls:
     - hosts:
-      - portal.showks.containerdays.jp
+      - portal.showks.cloudnativedays.jp
       secretName: tls-certificate-public
   rules:
-  - host: portal.showks.containerdays.jp
+  - host: portal.showks.cloudnativedays.jp
     http:
       paths:
       - path: /
@@ -36,10 +36,10 @@ metadata:
 spec:
   tls:
     - hosts:
-      - portal.showks.containerdays.jp
+      - portal.showks.cloudnativedays.jp
       secretName: tls-certificate-public
   rules:
-  - host: portal.showks.containerdays.jp
+  - host: portal.showks.cloudnativedays.jp
     http:
       paths:
       - path: /

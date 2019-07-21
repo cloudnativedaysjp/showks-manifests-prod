@@ -10,10 +10,10 @@ metadata:
 spec:
   tls:
     - hosts:
-      - scope.prod.showks.containerdays.jp
+      - scope.showks.cloudnativedays.jp
       secretName: tls-certificate
   rules:
-  - host: scope.prod.showks.containerdays.jp
+  - host: scope.showks.cloudnativedays.jp
     http:
       paths:
       - path: /
