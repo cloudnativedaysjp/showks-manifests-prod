@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
         - name: showks-canvas-jacopen05
-          image: cloudnativedaysjp/showks-canvas-jacopen05:prod-9b265cd91f683ac239065a471278d5936e03d150
+          image: cloudnativedaysjp/showks-canvas-jacopen05:prod-35ccdfd240863c51e249a21a89bdc6804f626e46
           ports:
             - name: app-port
               containerPort: 8080
