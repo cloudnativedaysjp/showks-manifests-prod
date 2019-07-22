@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
         - name: showks-canvas-k3nny
-          image: cloudnativedaysjp/showks-canvas-k3nny:prod-88c53d299b2747628d857444881019c72148ea5d
+          image: cloudnativedaysjp/showks-canvas-k3nny:prod-4b92666533ae812ab5da98efad7ef96dee7fd3a7
           env:
             - name: USER_ID
               value: k3nny
