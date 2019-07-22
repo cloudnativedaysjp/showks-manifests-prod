@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
         - name: showks-portal-frontend
-          image: cloudnativedaysjp/showks-portal-frontend:prod-cb6777434df010de0fc9ff01166f97949e86f2fd
+          image: cloudnativedaysjp/showks-portal-frontend:prod-18b68c786cd6fcf03875c6bc398a321b59971d29
           env:
             - name: DOMAIN
               valueFrom:
