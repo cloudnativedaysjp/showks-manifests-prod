@@ -37,7 +37,7 @@ spec:
   tls:
     - hosts:
       - portal.showks.cloudnativedays.jp
-      secretName: tls-certificate-public
+      secretName: tls-certificate
   rules:
   - host: portal.showks.cloudnativedays.jp
     http:
