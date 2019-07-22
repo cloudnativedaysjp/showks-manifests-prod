@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
         - name: showks-canvas-go
-          image: cloudnativedaysjp/showks-canvas-go:prod-a3290eb3600e286602aa801625fc00f6fdf3518b
+          image: cloudnativedaysjp/showks-canvas-go:prod-0189e25cc0eab47f53635c8126c74cbf44439f4a
           env:
             - name: USER_ID
               value: go
